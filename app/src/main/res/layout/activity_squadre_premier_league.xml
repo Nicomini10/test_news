@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PremierLeague.SquadrePremierLeague">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Clicca sul simbolo di una squadra per visualizzare le informazioni"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imageViewArsenal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/image_arsenal_foreground" />
+
+            <TextView
+                android:id="@+id/textViewArsenal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ARSENAL"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAstonVilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/image_astonvilla_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAstonVilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ASTON VILLA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBournemouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_bournemouth_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBournemouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BOURNEMOUTH"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBrighton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_brighton_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBrighton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BRIGHTON"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageBurnley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_burnley_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBurnley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BURNLEY"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageNorwich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_norwich_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNorwich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="NORWICH"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageChelsea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_chelsea_foreground" />
+
+            <TextView
+                android:id="@+id/textViewChelsea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="CHELSEA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_city_foreground" />
+
+            <TextView
+                android:id="@+id/textViewCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="CITY"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imagePalace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_palace_foreground" />
+
+            <TextView
+                android:id="@+id/textViewPalace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="PALACE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageEverton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_everton_foreground" />
+
+            <TextView
+                android:id="@+id/textViewEverton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="EVERTON"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageLeichester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_leicester_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLeichester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LEICESTER"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLiverpool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_liverpool_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLiverpool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LIVERPOOL"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewNewcastle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_newcastle_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNewcastle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="NEW CASTLE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSheffield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_sheffield_foreground" />
+
+            <TextView
+                android:id="@+id/textViewSheffield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SHEFFIELD"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSouthampton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_southampton_foreground" />
+
+            <TextView
+                android:id="@+id/textViewSouthampton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SOUTHAMPTON"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageViewTottenham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_tottenham_foreground" />
+
+            <TextView
+                android:id="@+id/textViewTottenham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="TOTTENHAM"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewUnited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_united_foreground" />
+
+            <TextView
+                android:id="@+id/textViewUnited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="UNITED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewWatford"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_watford_foreground" />
+
+            <TextView
+                android:id="@+id/textViewWatford"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="WATFORD"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewWestHam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_westham_foreground" />
+
+            <TextView
+                android:id="@+id/textViewWestHam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="WEST HAM"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewWolves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_wolverhampton_foreground" />
+
+            <TextView
+                android:id="@+id/textViewWolves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="WOLVES"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ligue1.SquadreLigue1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Clicca sul simbolo di una squadra per visualizzare le informazioni"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAmiens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/image_amiens_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAmiens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="AMIENS"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAngers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/image_angers_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAngers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ANGERS"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBordeaux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_bordeaux_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBordeaux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BORDEAUX"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBrest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_brest_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBrest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BREST"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageDijon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_dijon_foreground" />
+
+            <TextView
+                android:id="@+id/textViewDijon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="DIJON"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_lilla_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LILLE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLione"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_lione_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLione"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="OL. LIONE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMarsiglia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_marsiglia_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMarsiglia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MARSIGLIA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMetz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_metz_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMetz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="METZ"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMonaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_monaco_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMonaco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MONACO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMontpellier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_montpellier_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMontpellier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MONTPELLIER"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewNantes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_nantes_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNantes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="NANTES"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewNimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_nimes_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="NIMES"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewNizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_nizza_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="NIZZA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewParis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_paris_foreground" />
+
+            <TextView
+                android:id="@+id/textViewParis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="PARIS SG"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewReims"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_reims_foreground" />
+
+            <TextView
+                android:id="@+id/textViewReims"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="REIMS"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewRennes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_rennes_foreground" />
+
+            <TextView
+                android:id="@+id/textViewRennes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="RENNES"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSaintetienne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_saintetienne_foreground" />
+
+            <TextView
+                android:id="@+id/textViewSaintetienne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SAINT ETIENNE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewStrasburgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_strasburgo_foreground" />
+
+            <TextView
+                android:id="@+id/textViewStrasburgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="STRASBURGO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewTolosa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_tolosa_foreground" />
+
+            <TextView
+                android:id="@+id/textViewTolosa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="TOLOSA"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

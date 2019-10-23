@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BundesLiga.SquadreBundesliga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Clicca sul simbolo di una squadra per visualizzare le informazioni"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAugusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/image_augusta_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAugusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="AUGUSTA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/image_bayer_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BAYER MONACO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBerlino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_berlino_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBerlino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BERLINO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBrema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_brema_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBrema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="WERDER BREMA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageColonia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_colonia_foreground" />
+
+            <TextView
+                android:id="@+id/textViewColonia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="COLONIA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageDortmund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_dortmund_foreground" />
+
+            <TextView
+                android:id="@+id/textViewDortmund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="DORTMUND"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageDusseldorf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_dusseldorf_foreground" />
+
+            <TextView
+                android:id="@+id/textViewDusseldorf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="DUSSELDORF"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageFrancoforte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_francoforte_foreground" />
+
+            <TextView
+                android:id="@+id/textViewFrancoforte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="FRANCOFORTE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageFriburgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_friburgo_foreground" />
+
+            <TextView
+                android:id="@+id/textViewFriburgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="FRIBURGO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewHertha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_hertha_foreground" />
+
+            <TextView
+                android:id="@+id/textViewHertha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="HERTHA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewHoffenheim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_hoffenheim_foreground" />
+
+            <TextView
+                android:id="@+id/textViewHoffenheim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="HOFFENHEIM"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLeverkusen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_leverkusen_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLeverkusen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LEVERKUSEN"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLipsia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_lipsia_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLipsia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LIPSIA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMagonza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_magonza_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMagonza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MAGONZA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMonchengladbach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_monchengladbach_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMonchengladbach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MONCHENGLADBACH"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageViewPaderborn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_paderborn_foreground" />
+
+            <TextView
+                android:id="@+id/textViewPaderborn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="PADERBORN"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewShalke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_shalke_foreground" />
+
+            <TextView
+                android:id="@+id/textViewShalke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SHALKE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewWolfsburg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_wolfsburg_foreground" />
+
+            <TextView
+                android:id="@+id/textViewWolfsburg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="WOLFSBURG"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

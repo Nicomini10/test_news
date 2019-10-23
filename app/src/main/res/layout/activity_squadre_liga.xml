@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SerieA.SquadreSerieA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Clicca sul simbolo di una squadra per visualizzare le informazioni"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAlaves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/image_alaves_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAlaves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ALAVES"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAtletico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/image_atletico_foreground" />
+
+            <TextView
+                android:id="@+id/textViewAtletico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ATL.MADRID"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBarcelona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_barcelona_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBarcelona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BARCELONA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBetis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_betis_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBetis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BETIS"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageBilbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_bilbao_foreground" />
+
+            <TextView
+                android:id="@+id/textViewBilbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="BILBAO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewceltavigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@mipmap/image_celtavigo_foreground" />
+
+            <TextView
+                android:id="@+id/textViewceltavigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="CELTA VIGO"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewEibar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_eibar_foreground" />
+
+            <TextView
+                android:id="@+id/textViewEibar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="EIBAR"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewEspanyol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_espanyol_foreground" />
+
+            <TextView
+                android:id="@+id/textViewEspanyol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="ESPANYOL"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewGefate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_getafe_foreground" />
+
+            <TextView
+                android:id="@+id/textViewGetafe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="GETAFE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewGranada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_granada_foreground" />
+
+            <TextView
+                android:id="@+id/textViewGranada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="GRANADA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLeganes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_leganes_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLeganes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LEGANES"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLevante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_levante_foreground" />
+
+            <TextView
+                android:id="@+id/textViewLevante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="LEVANTE"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMaiorca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_maiorca_foreground" />
+
+            <TextView
+                android:id="@+id/textViewMaiorca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="MAIORCA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewOsasuna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_osasuna_foreground" />
+
+            <TextView
+                android:id="@+id/textViewOsasuna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="OSASUNA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewReal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_real_foreground" />
+
+            <TextView
+                android:id="@+id/textViewReal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="REAL MADRID"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSiviglia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_siviglia_foreground" />
+
+            <TextView
+                android:id="@+id/textViewSiviglia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SIVIGLIA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSociedad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_sociedad_foreground" />
+
+            <TextView
+                android:id="@+id/textViewSociedad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="SOCIEDAD"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewValencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/image_valencia_foreground" />
+
+            <TextView
+                android:id="@+id/textViewValencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="VALENCIA"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewValladolid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_valladolid_foreground" />
+
+            <TextView
+                android:id="@+id/textViewValladolid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="VALLADOLID"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewVillareal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/image_villareal_foreground" />
+
+            <TextView
+                android:id="@+id/textViewVillareal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-75dp"
+                android:text="VILLAREAL"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

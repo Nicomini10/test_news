@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Campionati.LigaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:srcCompat="@mipmap/ic_launcher_liga_foreground" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageViewSquadreLiga"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@mipmap/squadre_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewCalendarioLiga"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/calendario_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewClassificaLiga"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="-420dp"
+            app:srcCompat="@mipmap/classifica_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewClassificaMarcatoriLiga"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/marcatori_classifica_foreground" />
+
+        <Button
+            android:id="@+id/buttonReturnNews"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Torna alle News"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
