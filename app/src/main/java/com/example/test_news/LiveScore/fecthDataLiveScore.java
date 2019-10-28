@@ -26,7 +26,7 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Livescore&APIkey=b2b5837ea483cdec29a823e1263690d3289391be859a2400122c30fb75186730");
+            URL url = new URL("https://allsportsapi.com/api/football/?met=Livescore&APIkey=34b4c6e52acb9a70ab30f1802ae4bd7fd48fe27e1b0c717dddab02dcc0d8a447");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
