@@ -44,13 +44,13 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
             JSONObject jsonObject = new JSONObject(data);
             JSONArray JA = jsonObject.getJSONArray("result");
             for(int i = 0; i < JA.length(); i++){
+
                 JSONObject JO = JA.getJSONObject(i);
 
                 singleParsed = ("- ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
-                               ("  ") + ("(") + JO.get("team_name") + (")") + "\n";
+                               (" ") + ("(") + JO.get("team_name") + (")") + "\n" + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
-
 
             }
 
