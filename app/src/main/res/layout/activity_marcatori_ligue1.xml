@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:layout_marginTop="110dp"
             android:textColor="#FFFFFF"
             android:hint="Classifica Marcatori Ligue 1"/>

@@ -42,12 +42,12 @@ public class fecthDataCalendarioPremier extends AsyncTask<Void,Void,Void>  {
 
             JSONObject jsonObject = new JSONObject(data);
             JSONArray JA = jsonObject.getJSONArray("result");
-            for(int i = 0; i < JA.length(); i++){
+            for(int i = 377; i < JA.length(); i--){
                 JSONObject JO = JA.getJSONObject(i);
 
-                singleParsed =  ("- ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
-                                ("  ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
-                                ("  ") + JO.get("league_round") + ("°") + "\n";
+                singleParsed =  ("-  ") + JO.get("league_round") + ("°") + "\n" +
+                        ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
+                        ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 

@@ -1,6 +1,5 @@
 package com.example.test_news.SerieA;
 
-
 import android.os.AsyncTask;
 
 import org.json.JSONArray;
@@ -21,7 +20,6 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
     String dataParsed = "";
     String singleParsed = "";
 
-
     @Override
     protected Void doInBackground(Void... voids) {
 
@@ -38,7 +36,6 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
 
                 line = bufferedReader.readLine();
                 data = data + line;
-
             }
 
             JSONObject jsonObject = new JSONObject(data);
@@ -47,11 +44,10 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
 
                 JSONObject JO = JA.getJSONObject(i);
 
-                singleParsed = ("- ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
-                               (" ") + ("(") + JO.get("team_name") + (")") + "\n" + "\n";
+                singleParsed = ("-  ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
+                               ("   ") + ("(") + JO.get("team_name") + (")") + "\n" + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
-
             }
 
 
@@ -62,7 +58,9 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
         return null;
+
     }
 
     @Override
@@ -70,5 +68,7 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
         super.onPostExecute(aVoid);
 
         MarcatoriSerieA.data.setText(this.dataParsed);
+
     }
+
 }

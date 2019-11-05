@@ -26,7 +26,7 @@ public class fecthDataCalendarioLigue1 extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=176&APIkey=34b4c6e52acb9a70ab30f1802ae4bd7fd48fe27e1b0c717dddab02dcc0d8a447&from=2019-08-25&to=2020-05-24");
+            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=176&APIkey=34b4c6e52acb9a70ab30f1802ae4bd7fd48fe27e1b0c717dddab02dcc0d8a447&from=2019-08-09&to=2020-05-23");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -43,12 +43,12 @@ public class fecthDataCalendarioLigue1 extends AsyncTask<Void,Void,Void> {
 
             JSONObject jsonObject = new JSONObject(data);
             JSONArray JA = jsonObject.getJSONArray("result");
-            for(int i = 0; i < JA.length(); i++){
+            for(int i = 377; i < JA.length(); i--){
                 JSONObject JO = JA.getJSONObject(i);
 
-                singleParsed =  ("- ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
-                        ("  ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
-                        ("  ") + JO.get("league_round") + ("°") + "\n";
+                singleParsed =  ("-  ") + JO.get("league_round") + ("°") + "\n" +
+                        ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
+                        ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 
