@@ -26,7 +26,7 @@ public class fecthDataMarcatoriLiga extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?&met=Topscorers&leagueId=468&APIkey=34b4c6e52acb9a70ab30f1802ae4bd7fd48fe27e1b0c717dddab02dcc0d8a447");
+            URL url = new URL("https://allsportsapi.com/api/football/?&met=Topscorers&leagueId=468&APIkey=31b10c698819cb49d1d23388444c9ec661d4f146f3564912456e56939d59a16b");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();

@@ -39,7 +39,7 @@
         <item
             android:id="@+id/nav_info"
             android:icon="@drawable/ic_launcher_freccia"
-            android:title="Info" />
+            android:title="Info App" />
 
     </group>
 
