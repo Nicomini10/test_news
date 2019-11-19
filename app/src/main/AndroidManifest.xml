@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ligue1.CalendarioLigue1"></activity>
+        <activity android:name=".Squadre_serie_A.Atalanta"></activity>
+        <activity android:name=".Squadre_serie_A.Lazio" />
+        <activity android:name=".Squadre_serie_A.Torino" />
+        <activity android:name=".Ligue1.CalendarioLigue1" />
         <activity android:name=".Ligue1.ClassificaLigue1" />
         <activity android:name=".Ligue1.MarcatoriLigue1" />
         <activity android:name=".BundesLiga.CalendarioBundesLiga" />
