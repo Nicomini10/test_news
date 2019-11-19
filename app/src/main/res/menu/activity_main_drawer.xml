@@ -37,6 +37,11 @@
             android:title="Video" />
 
         <item
+            android:id="@+id/nav_statistiche"
+            android:icon="@drawable/ic_launcher_freccia"
+            android:title="Statistiche" />
+
+        <item
             android:id="@+id/nav_info"
             android:icon="@drawable/ic_launcher_freccia"
             android:title="Info App" />

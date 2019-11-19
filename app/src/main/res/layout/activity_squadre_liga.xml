@@ -40,6 +40,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="ALAVES"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -56,6 +57,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="ATL.MADRID"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -72,6 +74,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="BARCELONA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -88,6 +91,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="BETIS"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -104,6 +108,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="BILBAO"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -120,6 +125,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="CELTA VIGO"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -136,6 +142,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="EIBAR"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -152,6 +159,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="ESPANYOL"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -168,6 +176,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="GETAFE"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -184,6 +193,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="GRANADA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -200,6 +210,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="LEGANES"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -216,6 +227,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="LEVANTE"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -232,6 +244,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="MAIORCA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -248,6 +261,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="OSASUNA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -264,6 +278,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="REAL MADRID"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -280,6 +295,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="SIVIGLIA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -296,6 +312,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="SOCIEDAD"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -312,6 +329,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="VALENCIA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -328,6 +346,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="VALLADOLID"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -344,6 +363,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="VILLAREAL"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
         </LinearLayout>
     </ScrollView>

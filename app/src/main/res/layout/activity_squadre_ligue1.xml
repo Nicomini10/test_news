@@ -40,6 +40,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="AMIENS"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -56,6 +57,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="ANGERS"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -72,6 +74,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="BORDEAUX"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -88,6 +91,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="BREST"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -104,6 +108,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="DIJON"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -120,6 +125,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="LILLE"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -135,7 +141,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
-                android:text="OL. LIONE"
+                android:text="OL.LIONE"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -152,6 +159,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="MARSIGLIA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -168,6 +176,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="METZ"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -184,6 +193,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="MONACO"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -200,6 +210,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="MONTPELLIER"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -216,6 +227,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="NANTES"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -232,6 +244,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="NIMES"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -248,6 +261,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="NIZZA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -264,6 +278,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="PARIS SG"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -280,6 +295,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="REIMS"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -296,6 +312,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="RENNES"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -312,6 +329,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="SAINT ETIENNE"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -328,6 +346,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="STRASBURGO"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
             <ImageView
@@ -344,6 +363,7 @@
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
                 android:text="TOLOSA"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp" />
         </LinearLayout>
     </ScrollView>
