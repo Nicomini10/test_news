@@ -4,20 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".Info.InfoActivity">
 
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            app:srcCompat="@mipmap/image_info_foreground" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#009688"
         android:orientation="vertical">
 
         <ImageView
@@ -31,10 +42,10 @@
             android:layout_width="330dp"
             android:layout_height="250dp"
             android:layout_marginStart="35dp"
-            android:layout_marginTop="10dp"
             android:gravity="center"
+            android:layout_marginTop="-15dp"
             android:text="App pensata per gli appasionati di calcio, che ti consente di avere informazioni su squadre, classifiche, calendari, marcatori sui 5 principali campionati europei. Inoltre una sezione dedicata al Live che ti permette di verificare le partite della giornata odierna con i risultati in tempo reale."
-            android:textColor="#009688"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <TextView
@@ -42,10 +53,10 @@
             android:layout_width="310dp"
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="-10dp"
+            android:layout_marginTop="-5dp"
             android:gravity="center"
             android:text="Ideata e realizzata da Nico Minichillo come lavoro di tesi per l'Università degli Studi del Molise."
-            android:textColor="#009688"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <ImageView
@@ -63,6 +74,15 @@
             android:layout_marginStart="200dp"
             android:layout_marginTop="-155dp"
             app:srcCompat="@mipmap/logo_app_info_foreground" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="-20dp"
+            android:text="Cliccando sul simbolo dell' Unimol è possibile accedere al sito Web dell' Ateneo "
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </RelativeLayout>

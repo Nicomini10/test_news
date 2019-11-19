@@ -71,6 +71,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:text="Torna alle News"
+            android:textColor="@color/cardview_dark_background"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textStyle="bold|italic" />
 
