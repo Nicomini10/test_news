@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Clicca sul simbolo di una squadra per visualizzare le informazioni"
+                android:text="*Clicca sul simbolo di una squadra per visualizzare le informazioni"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp" />
 

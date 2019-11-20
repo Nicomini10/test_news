@@ -25,6 +25,7 @@ import com.example.test_news.Campionati.PremierActivity;
 import com.example.test_news.Campionati.SerieaActivity;
 import com.example.test_news.Info.InfoActivity;
 import com.example.test_news.LiveScore.LiveScoreActivity;
+import com.example.test_news.Statistiche.StatisticheActivity;
 import com.example.test_news.Video.VideoActivity;
 import com.google.android.material.navigation.NavigationView;
 
@@ -195,6 +196,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_video_match) {
 
             Intent intent = new Intent(getApplicationContext(), VideoActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_statistiche) {
+
+            Intent intent = new Intent(getApplicationContext(), StatisticheActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_info) {
 

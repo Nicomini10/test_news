@@ -81,7 +81,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:layout_marginTop="-20dp"
-            android:text="Cliccando sul simbolo dell' Unimol è possibile accedere al sito Web dell' Ateneo "
+            android:text="*Cliccando sul simbolo dell' Unimol è possibile accedere al sito Web dell' Ateneo "
             android:textColor="#FFFFFF" />
 
     </LinearLayout>

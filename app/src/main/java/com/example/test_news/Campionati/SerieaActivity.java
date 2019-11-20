@@ -14,6 +14,7 @@ import com.example.test_news.MainActivity;
 import com.example.test_news.SerieA.MarcatoriSerieA;
 import com.example.test_news.R;
 import com.example.test_news.SerieA.SquadreSerieA;
+import com.example.test_news.Statistiche.StatisticheActivity;
 
 public class SerieaActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class SerieaActivity extends AppCompatActivity {
     private ImageView classifica;
     private ImageView calendario;
     private Button returnNews;
+    private ImageView statistiche;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class SerieaActivity extends AppCompatActivity {
         classifica = (ImageView) findViewById(R.id.imageViewClassifica);
         calendario = (ImageView) findViewById(R.id.imageViewCalendario);
         returnNews = (Button) findViewById(R.id.buttonReturnNews);
+        statistiche = (ImageView) findViewById(R.id.imageViewlogoStatistiche);
 
 
         squadre.setOnClickListener(new View.OnClickListener() {
@@ -74,6 +77,14 @@ public class SerieaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        statistiche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), StatisticheActivity.class);
                 startActivity(intent);
             }
         });
