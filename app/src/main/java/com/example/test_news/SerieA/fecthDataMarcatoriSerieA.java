@@ -45,7 +45,7 @@ public class fecthDataMarcatoriSerieA extends AsyncTask<Void,Void,Void> {
                 JSONObject JO = JA.getJSONObject(i);
 
                 singleParsed = ("-  ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
-                               ("   ") + ("(") + JO.get("team_name") + (")") + "\n" + "\n";
+                               ("   ") + ("(") + JO.get("team_name") + (")") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
             }

@@ -39,7 +39,7 @@
         <item
             android:id="@+id/nav_statistiche"
             android:icon="@drawable/ic_launcher_freccia"
-            android:title="Statistiche" />
+            android:title="Statistiche Campionati" />
 
         <item
             android:id="@+id/nav_info"

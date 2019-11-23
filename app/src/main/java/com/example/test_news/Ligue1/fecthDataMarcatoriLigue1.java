@@ -46,8 +46,8 @@ public class fecthDataMarcatoriLigue1 extends AsyncTask<Void,Void,Void> {
             for(int i = 0; i < JA.length(); i++){
                 JSONObject JO = JA.getJSONObject(i);
 
-                singleParsed = ("- ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
-                               (" ") + ("(") + JO.get("team_name") + (")") + "\n" + "\n";
+                singleParsed = ("-  ") + JO.get("player_name")  + ("     ") + ("GOAL: ") + JO.get("goals") + "\n" +
+                               ("   ") + ("(") + JO.get("team_name") + (")") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 
