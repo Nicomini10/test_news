@@ -14,8 +14,8 @@ import com.example.test_news.MainActivity;
 import com.example.test_news.SerieA.MarcatoriSerieA;
 import com.example.test_news.R;
 import com.example.test_news.SerieA.SquadreSerieA;
-import com.example.test_news.Statistiche.StatisticheActivity;
-import com.example.test_news.Statistiche.StatisticheSerieA;
+import com.example.test_news.Statistiche.OptionStatisticheSerieaActivity;
+import com.example.test_news.Statistiche.StatistichePossesoPallaSerieA;
 
 public class SerieaActivity extends AppCompatActivity {
 
@@ -85,7 +85,7 @@ public class SerieaActivity extends AppCompatActivity {
         statistiche.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), StatisticheSerieA.class);
+                Intent intent = new Intent(getApplicationContext(), OptionStatisticheSerieaActivity.class);
                 startActivity(intent);
             }
         });

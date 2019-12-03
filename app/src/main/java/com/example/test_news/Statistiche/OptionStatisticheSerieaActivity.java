@@ -9,24 +9,23 @@ import android.widget.ImageView;
 
 import com.example.test_news.R;
 
-public class StatisticheActivity extends AppCompatActivity {
+public class OptionStatisticheSerieaActivity extends AppCompatActivity {
 
-    private ImageView serieA;
+    private ImageView percentualePossesopalla;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_statistiche);
+        setContentView(R.layout.activity_option_statistiche_serie);
 
-       serieA = (ImageView) findViewById(R.id.imageViewSerieaStatistiche);
+        percentualePossesopalla = (ImageView) findViewById(R.id.imageViewPercentualePossesoPalla);
 
-        serieA.setOnClickListener(new View.OnClickListener() {
+        percentualePossesopalla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), OptionStatisticheSerieaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), StatistichePossesoPallaSerieA.class);
                 startActivity(intent);
             }
         });
-
     }
 }

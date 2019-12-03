@@ -89,6 +89,6 @@ public class fecthDataStatisticheSerieA  extends AsyncTask<Void,Void,Void> {
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
 
-        StatisticheSerieA.data.setText(this.dataParsed);
+        StatistichePossesoPallaSerieA.data.setText(this.dataParsed);
     }
 }
