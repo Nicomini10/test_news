@@ -1,4 +1,4 @@
-package com.example.test_news.Statistiche;
+package com.example.test_news.Statistiche_SerieA;
 
 import android.os.AsyncTask;
 

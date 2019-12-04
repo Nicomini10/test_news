@@ -1,4 +1,4 @@
-package com.example.test_news.Statistiche;
+package com.example.test_news.Statistiche_SerieA;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,18 +7,18 @@ import android.widget.TextView;
 
 import com.example.test_news.R;
 
-public class StatistichePossesoPallaSerieA extends AppCompatActivity {
+public class StatisticheQuoteSerieA extends AppCompatActivity {
 
     public static TextView data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_statistiche_serie);
+        setContentView(R.layout.activity_statistiche_quote_serie);
 
         data = (TextView) findViewById(R.id.fectdata);
 
-        fecthDataStatisticheSerieA process = new fecthDataStatisticheSerieA();
+        fecthDataStatisticheQuoteSerieA process = new fecthDataStatisticheQuoteSerieA();
         process.execute();
     }
 }

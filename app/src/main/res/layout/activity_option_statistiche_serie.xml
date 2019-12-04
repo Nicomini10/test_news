@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Statistiche.OptionStatisticheSerieaActivity">
+    tools:context=".Statistiche_SerieA.OptionStatisticheSerieaActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -42,7 +42,7 @@
         android:textSize="25sp" />
 
     <ImageView
-        android:id="@+id/imageViewPremierStatistiche"
+        android:id="@+id/imageViewMediaGoal"
         android:layout_width="wrap_content"
         android:layout_height="93dp"
         android:layout_marginTop="200dp"
@@ -59,7 +59,7 @@
         android:textSize="25sp" />
 
     <ImageView
-        android:id="@+id/imageViewLigaStatistiche"
+        android:id="@+id/imageViewQuote1X2"
         android:layout_width="wrap_content"
         android:layout_height="93dp"
         android:layout_marginTop="290dp"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="315dp"
-        android:text="Percentuale Quote 1X2"
+        android:text="Media Risultati (1X2)"
         android:textColor="#FFFFFF"
         android:textSize="25sp" />
 

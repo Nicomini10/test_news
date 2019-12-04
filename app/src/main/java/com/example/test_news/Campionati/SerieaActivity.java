@@ -14,8 +14,7 @@ import com.example.test_news.MainActivity;
 import com.example.test_news.SerieA.MarcatoriSerieA;
 import com.example.test_news.R;
 import com.example.test_news.SerieA.SquadreSerieA;
-import com.example.test_news.Statistiche.OptionStatisticheSerieaActivity;
-import com.example.test_news.Statistiche.StatistichePossesoPallaSerieA;
+import com.example.test_news.Statistiche_SerieA.OptionStatisticheSerieaActivity;
 
 public class SerieaActivity extends AppCompatActivity {
 

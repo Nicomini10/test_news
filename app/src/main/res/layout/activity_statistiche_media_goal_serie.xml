@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Statistiche_SerieA.StatistichePossesoPallaSerieA">
+    tools:context=".Statistiche_SerieA.StatisticheMediaGoalSerieA">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -35,7 +35,7 @@
             android:textSize="22sp"
             android:layout_marginTop="110dp"
             android:textColor="#FFFFFF"
-            android:hint="Media Posseso Palla Squadre Serie A:"/>
+            android:hint="Media Goal Squadre Serie A:"/>
 
     </ScrollView>
 

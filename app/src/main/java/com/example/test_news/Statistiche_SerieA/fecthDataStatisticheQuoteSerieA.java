@@ -1,5 +1,4 @@
-package com.example.test_news.LiveScore;
-
+package com.example.test_news.Statistiche_SerieA;
 
 import android.os.AsyncTask;
 
@@ -15,7 +14,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
+public class fecthDataStatisticheQuoteSerieA extends AsyncTask<Void,Void,Void> {
 
     String data = "";
     String dataParsed = "";
@@ -26,7 +25,7 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Livescore&APIkey=1469a1f31030150b112a936791211da6237e21cedae1259f6ed903742242a184");
+            URL url = new URL("https://api.myjson.com/bins/nb884");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -42,13 +41,15 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
             }
 
             JSONObject jsonObject = new JSONObject(data);
-            JSONArray JA = jsonObject.getJSONArray("result");
+            JSONArray JA = jsonObject.getJSONArray("quote");
             for(int i = 0; i < JA.length(); i++){
                 JSONObject JO = JA.getJSONObject(i);
 
-                singleParsed =  ("-  ") + JO.get("event_home_team") + (" ") + ("VS") + (" ") + JO.get("event_away_team") + "\n" +
-                                ("   ") + ("Inizia alle: ") + JO.get("event_time") + ("  ") + "\n" +
-                                ("   ") + ("Risultato:  ") + JO.get("event_final_result") + "\n";
+                singleParsed = ("- ") + JO.get("lega") + "\n" + "\n" +
+                               ("  ") + ("Numero Partite: ") + JO.get("num_partite") + "\n" + "\n" +
+                               ("  ") + ("Esito 1:  ") + JO.get("esito_1") + (" ") + ("%") + "\n" + "\n" +
+                               ("  ") + ("Esito X:  ") +JO.get("esito_X") + (" ") + ("%") + "\n"  + "\n" +
+                               ("  ") + ("Esito 2:  ") +JO.get("esito_2") + (" ") + ("%") +  "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 
@@ -70,6 +71,6 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
 
-        LiveScoreActivity.data.setText(this.dataParsed);
+        StatisticheQuoteSerieA.data.setText(this.dataParsed);
     }
 }
