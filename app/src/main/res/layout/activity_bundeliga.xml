@@ -72,5 +72,13 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textStyle="bold|italic" />
 
+        <ImageView
+            android:id="@+id/imageViewlogoStatistiche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-320dp"
+            app:srcCompat="@mipmap/image_statistiche3_logo_foreground" />
+
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
