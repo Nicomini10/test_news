@@ -41,7 +41,8 @@
             android:hint="Giocatori Roma"
             android:padding="5dp"
             android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
     </ScrollView>
 

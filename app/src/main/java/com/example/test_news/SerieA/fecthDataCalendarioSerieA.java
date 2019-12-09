@@ -49,7 +49,8 @@ public class fecthDataCalendarioSerieA extends AsyncTask<Void,Void,Void> {
 
                 singleParsed =  ("-  ") + JO.get("league_round") + ("°") + "\n" +
                                 ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
-                                ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n";
+                                ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
+                                ("   ") + ("Risultato: ") + JO.get("event_final_result") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 

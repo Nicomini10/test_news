@@ -34,11 +34,13 @@
             android:id="@+id/fectdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:textSize="20sp"
             android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:hint="Calendario Ligue 1"
+            android:padding="5dp"
             android:textColor="#FFFFFF"
-            android:hint="Calendario Ligue 1"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </ScrollView>
 

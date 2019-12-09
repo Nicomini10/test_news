@@ -34,11 +34,13 @@
             android:id="@+id/fectdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:textSize="20sp"
             android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:hint="Calendario BundesLiga"
+            android:padding="5dp"
             android:textColor="#FFFFFF"
-            android:hint="Calendario BundesLiga"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </ScrollView>
 

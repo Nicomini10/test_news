@@ -25,7 +25,8 @@
                 android:gravity="center"
                 android:text="*Clicca sul simbolo di una squadra per visualizzare le informazioni"
                 android:textColor="#FFFFFF"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewAugusta"
@@ -41,7 +42,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="AUGUSTA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBayer"
@@ -58,7 +60,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="BAYER MONACO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBerlino"
@@ -75,7 +78,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="BERLINO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBrema"
@@ -92,7 +96,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="WERDER BREMA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageColonia"
@@ -109,7 +114,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="COLONIA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageDortmund"
@@ -126,7 +132,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="DORTMUND"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageDusseldorf"
@@ -143,7 +150,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="DUSSELDORF"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageFrancoforte"
@@ -160,7 +168,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="FRANCOFORTE"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageFriburgo"
@@ -177,7 +186,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="FRIBURGO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewHertha"
@@ -194,7 +204,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="HERTHA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewHoffenheim"
@@ -211,7 +222,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="HOFFENHEIM"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewLeverkusen"
@@ -228,7 +240,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="LEVERKUSEN"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewLipsia"
@@ -245,7 +258,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="LIPSIA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewMagonza"
@@ -262,7 +276,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="MAGONZA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewMonchengladbach"
@@ -279,7 +294,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="MONCHENGLADBACH"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewPaderborn"
@@ -296,7 +312,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="PADERBORN"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewShalke"
@@ -313,7 +330,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="SHALKE"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewWolfsburg"
@@ -330,7 +348,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="WOLFSBURG"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 

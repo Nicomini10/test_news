@@ -46,7 +46,8 @@
             android:layout_marginTop="-15dp"
             android:text="App pensata per gli appasionati di calcio, che ti consente di avere informazioni su squadre, classifiche, calendari, marcatori sui 5 principali campionati europei. Inoltre una sezione dedicata al Live che ti permette di verificare le partite della giornata odierna con i risultati in tempo reale."
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -57,7 +58,8 @@
             android:gravity="center"
             android:text="Ideata e realizzata da Nico Minichillo come lavoro di tesi per l'Università degli Studi del Molise."
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold"/>
 
         <ImageView
             android:id="@+id/imageViewLogoUnimol"
@@ -82,7 +84,8 @@
             android:gravity="center"
             android:layout_marginTop="-20dp"
             android:text="*Cliccando sul simbolo dell' Unimol è possibile accedere al sito Web dell' Ateneo "
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 </RelativeLayout>

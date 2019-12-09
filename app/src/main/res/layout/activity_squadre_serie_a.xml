@@ -25,7 +25,8 @@
                 android:gravity="center"
                 android:text="*Clicca sul simbolo di una squadra per visualizzare le informazioni"
                 android:textColor="#FFFFFF"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewJuve"
@@ -41,7 +42,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="JUVENTUS"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewInter"
@@ -58,7 +60,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="INTER"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewMilan"
@@ -75,7 +78,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="MILAN"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewRoma"
@@ -92,7 +96,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="ROMA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewNapoli"
@@ -109,7 +114,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="NAPOLI"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewTorino"
@@ -126,7 +132,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="TORINO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewLazio"
@@ -143,7 +150,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="LAZIO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewAtalanta"
@@ -160,7 +168,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="ATALANTA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBologna"
@@ -177,7 +186,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="BOLOGNA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBrescia"
@@ -194,7 +204,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="BRESCIA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewCagliari"
@@ -211,7 +222,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="CAGLIARI"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewFiorentina"
@@ -228,7 +240,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="FIORENTINA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewGenoa"
@@ -245,7 +258,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="GENOA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewLecce"
@@ -262,7 +276,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="LECCE"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewParma"
@@ -279,7 +294,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="PARMA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewSampdoria"
@@ -296,7 +312,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="SAMPDORIA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewSassuolo"
@@ -313,7 +330,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="SASSUOLO"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewSpal"
@@ -330,7 +348,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="SPAL"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewUdinese"
@@ -347,7 +366,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="UDINESE"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewHellasVerona"
@@ -364,7 +384,8 @@
                 android:layout_marginTop="-75dp"
                 android:text="VERONA"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 

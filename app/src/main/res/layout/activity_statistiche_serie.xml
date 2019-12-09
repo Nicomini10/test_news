@@ -35,7 +35,8 @@
             android:textSize="22sp"
             android:layout_marginTop="110dp"
             android:textColor="#FFFFFF"
-            android:hint="Media Posseso Palla Squadre Serie A:"/>
+            android:hint="Media Posseso Palla Squadre Serie A:"
+            android:textStyle="bold"/>
 
     </ScrollView>
 

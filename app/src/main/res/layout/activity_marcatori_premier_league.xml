@@ -37,7 +37,8 @@
             android:textSize="20sp"
             android:layout_marginTop="110dp"
             android:textColor="#FFFFFF"
-            android:hint="Classifica Marcatori Premier"/>
+            android:hint="Classifica Marcatori Premier"
+            android:textStyle="bold"/>
 
     </ScrollView>
 
