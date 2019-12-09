@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".testCalendario"
-            android:label="@string/title_activity_test_calendario"
+            android:name=".test"
+            android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Statistiche_SerieA.StatisticheQuoteSerieA" />
         <activity android:name=".Statistiche_SerieA.StatisticheMediaGoalSerieA" />

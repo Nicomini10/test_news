@@ -17,7 +17,11 @@ import com.example.test_news.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
+<<<<<<< Updated upstream
     private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_1};
+=======
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+>>>>>>> Stashed changes
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -41,6 +45,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
+<<<<<<< Updated upstream
         return 3;
+=======
+        return 2;
+>>>>>>> Stashed changes
     }
 }
