@@ -18,7 +18,7 @@
             android:id="@+id/imageViewlogoStatistiche"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:srcCompat="@mipmap/image_statistiche_logo_foreground" />
+            app:srcCompat="@mipmap/image_statistiche1_logo_foreground" />
 
 
     </com.google.android.material.appbar.AppBarLayout>

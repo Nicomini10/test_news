@@ -32,8 +32,6 @@
         android:visibility="visible">
 
 
-
-
         <ImageView
             android:id="@+id/imageViewSquadre"
             android:layout_width="190dp"
@@ -81,8 +79,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="-310dp"
-            app:srcCompat="@mipmap/image_statistiche2_logo_foreground" />
+            android:layout_marginTop="-320dp"
+            app:srcCompat="@mipmap/image_statistiche3_logo_foreground" />
 
     </LinearLayout>
 
