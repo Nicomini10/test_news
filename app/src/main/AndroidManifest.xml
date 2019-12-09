@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Statistiche_SerieA.StatisticheQuoteSerieA"></activity>
+        <activity
+            android:name=".testCalendario"
+            android:label="@string/title_activity_test_calendario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Statistiche_SerieA.StatisticheQuoteSerieA" />
         <activity android:name=".Statistiche_SerieA.StatisticheMediaGoalSerieA" />
         <activity android:name=".Statistiche_SerieA.OptionStatisticheSerieaActivity" />
         <activity android:name=".Statistiche_SerieA.StatistichePossesoPallaSerieA" />

@@ -15,6 +15,7 @@ import com.example.test_news.SerieA.MarcatoriSerieA;
 import com.example.test_news.R;
 import com.example.test_news.SerieA.SquadreSerieA;
 import com.example.test_news.Statistiche_SerieA.OptionStatisticheSerieaActivity;
+import com.example.test_news.testCalendario;
 
 public class SerieaActivity extends AppCompatActivity {
 
@@ -58,7 +59,7 @@ public class SerieaActivity extends AppCompatActivity {
         calendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Calendario_serie_a.class);
+                Intent intent = new Intent(getApplicationContext(), testCalendario.class);
                 startActivity(intent);
             }
         });

@@ -16,4 +16,7 @@
     <string name="title_activity_list_news_adapter">ListNewsAdapter</string>
     <string name="title_activity_details">DetailsActivity</string>
     <string name="title_activity_serie_aactivity">SerieAactivity</string>
+    <string name="title_activity_test_calendario">testCalendario</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
