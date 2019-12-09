@@ -17,4 +17,9 @@
     <string name="title_activity_details">DetailsActivity</string>
     <string name="title_activity_serie_aactivity">SerieAactivity</string>
     <string name="title_activity_test_calendario">testCalendario</string>
+    <string name="tab_text_1">1°</string>
+    <string name="tab_text_2">2°</string>
+    <string name="tab_text_3">3°</string>
+    <string name="tab_text_4">4°</string>
+    <string name="tab_text_5">5°</string>
 </resources>
