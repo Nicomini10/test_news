@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="93dp"
         android:layout_marginTop="110dp"
-        app:srcCompat="@mipmap/image_percentuale2_logo_foreground" />
+        app:srcCompat="@mipmap/image_percentuale3_logo_foreground" />
 
     <TextView
         android:id="@+id/textViewSerieaStatistiche"
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="93dp"
         android:layout_marginTop="290dp"
-        app:srcCompat="@mipmap/image_graficotorta3d_logo_foreground" />
+        app:srcCompat="@mipmap/image_percentuale3_logo_foreground" />
 
     <TextView
         android:id="@+id/textViewLigaStatistiche"

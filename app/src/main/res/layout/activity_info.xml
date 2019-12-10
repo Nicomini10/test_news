@@ -75,7 +75,7 @@
             android:layout_height="150dp"
             android:layout_marginStart="200dp"
             android:layout_marginTop="-155dp"
-            app:srcCompat="@mipmap/logo_app_info_foreground" />
+            app:srcCompat="@mipmap/image_app_logo_definitivo_foreground" />
 
         <TextView
             android:layout_width="360dp"
