@@ -47,7 +47,8 @@ public class fecthDataVideo extends AsyncTask<Void,Void,Void> {
                 JSONObject JO = JA.getJSONObject(i);
 
                 singleParsed = ("- ") + "Titolo Video: " + JO.get("video_title_full") + "\n" +
-                               ("- ") + "Link Video: " + JO.get("video_url") + "\n";
+                               ("- ") + "Link Video: " + JO.get("video_url") + "\n" +
+                               ("________________________________________") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 

@@ -49,7 +49,8 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
                 singleParsed =  ("-  ") + JO.get("event_home_team") + (" ") + ("VS") + (" ") + JO.get("event_away_team") + "\n" +
                                 ("   ") + ("Orario Inizio: ") + JO.get("event_time") + ("  ") + "\n" +
                                 ("   ") + ("Minuto: ") + JO.get("event_status") + ("°") + "\n" +
-                                ("   ") + ("Risultato:  ") + JO.get("event_final_result") + "\n";
+                                ("   ") + ("Risultato:  ") + JO.get("event_final_result") + "\n" +
+                                ("________________________________________") + "\n";
 
                 dataParsed = dataParsed + singleParsed + "\n";
 
