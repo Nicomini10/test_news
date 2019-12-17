@@ -12,10 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Statistiche_Ligue1.OptionStatisticheLigue1"></activity>
+        <activity android:name=".Statistiche_Ligue1.StatisticheQuoteLigue1" />
+        <activity android:name=".Statistiche_Ligue1.StatistichePossesoLigue1" />
+        <activity android:name=".Statistiche_BundesLiga.OptionStatisticheBundesLiga" />
+        <activity android:name=".Statistiche_BundesLiga.StatisticheQuoteBundesLiga" />
+        <activity android:name=".Statistiche_BundesLiga.StatistichePossesoBundesLiga" />
+        <activity android:name=".Statistiche_Liga.OptionStatisticheLiga" />
+        <activity android:name=".Statistiche_Liga.StatisticheQuoteLiga" />
+        <activity android:name=".Statistiche_Liga.StatistichePossesoLiga" />
+        <activity android:name=".Statistiche_Premier.StatisticheQuotePremier" />
+        <activity android:name=".Statistiche_Premier.OptionStatistichePremier" />
+        <activity android:name=".Statistiche_Premier.StatistichePossesoPremier" />
         <activity
             android:name=".testCalendario"
             android:label="@string/title_activity_test_calendario"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Statistiche_SerieA.StatisticheQuoteSerieA" />
         <activity android:name=".Statistiche_SerieA.StatisticheMediaGoalSerieA" />
         <activity android:name=".Statistiche_SerieA.OptionStatisticheSerieaActivity" />

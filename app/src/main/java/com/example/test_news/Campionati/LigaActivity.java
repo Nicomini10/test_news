@@ -14,6 +14,7 @@ import com.example.test_news.Liga.MarcatoriLiga;
 import com.example.test_news.Liga.SquadreLiga;
 import com.example.test_news.MainActivity;
 import com.example.test_news.R;
+import com.example.test_news.Statistiche_Liga.OptionStatisticheLiga;
 
 public class LigaActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class LigaActivity extends AppCompatActivity {
     private ImageView classifica;
     private ImageView calendario;
     private Button returnNews;
+    private ImageView statistiche;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,9 @@ public class LigaActivity extends AppCompatActivity {
         classifica = (ImageView) findViewById(R.id.imageViewClassificaLiga);
         calendario = (ImageView) findViewById(R.id.imageViewCalendarioLiga);
         returnNews = (Button) findViewById(R.id.buttonReturnNews);
+        statistiche = (ImageView) findViewById(R.id.imageViewlogoStatistiche);
+
+
 
         squadre.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +76,14 @@ public class LigaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        statistiche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), OptionStatisticheLiga.class);
                 startActivity(intent);
             }
         });

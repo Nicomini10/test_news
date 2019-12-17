@@ -14,6 +14,9 @@ import com.example.test_news.Ligue1.MarcatoriLigue1;
 import com.example.test_news.Ligue1.SquadreLigue1;
 import com.example.test_news.MainActivity;
 import com.example.test_news.R;
+import com.example.test_news.Statistiche_BundesLiga.OptionStatisticheBundesLiga;
+import com.example.test_news.Statistiche_Liga.OptionStatisticheLiga;
+import com.example.test_news.Statistiche_Ligue1.OptionStatisticheLigue1;
 
 public class Ligue1Activity extends AppCompatActivity {
 
@@ -22,6 +25,7 @@ public class Ligue1Activity extends AppCompatActivity {
     private ImageView classifica;
     private ImageView calendario;
     private Button returnNews;
+    private ImageView statistiche;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ public class Ligue1Activity extends AppCompatActivity {
         classifica = (ImageView) findViewById(R.id.imageViewClassificaLigue1);
         calendario = (ImageView) findViewById(R.id.imageViewCalendarioLigue1);
         returnNews = (Button) findViewById(R.id.buttonReturnNews);
+        statistiche = (ImageView) findViewById(R.id.imageViewlogoStatistiche);
 
 
         squadre.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +78,14 @@ public class Ligue1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        statistiche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), OptionStatisticheLigue1.class);
                 startActivity(intent);
             }
         });

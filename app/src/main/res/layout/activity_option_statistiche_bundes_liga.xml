@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Statistiche_BundesLiga.OptionStatisticheBundesLiga">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/imageViewlogoStatistiche"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/ic_launcher_bundesliga_foreground" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewPercentualePossesoPalla"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@mipmap/image_percentuale3_logo_foreground" />
+
+    <TextView
+        android:id="@+id/textViewPremierPossesoStatistiche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="138dp"
+        android:text="Media Posseso Palla"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageViewQuote1X2"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@mipmap/image_percentuale3_logo_foreground" />
+
+    <TextView
+        android:id="@+id/textViewPremierrisultatiStatistiche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="225dp"
+        android:text="Media Risultati (1X2)"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

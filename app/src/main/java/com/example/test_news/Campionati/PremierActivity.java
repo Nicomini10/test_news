@@ -14,6 +14,8 @@ import com.example.test_news.PremierLeague.ClassificaPremierLeague;
 import com.example.test_news.PremierLeague.MarcatoriPremierLeague;
 import com.example.test_news.R;
 import com.example.test_news.PremierLeague.SquadrePremierLeague;
+import com.example.test_news.Statistiche_Premier.OptionStatistichePremier;
+import com.example.test_news.Statistiche_SerieA.OptionStatisticheSerieaActivity;
 
 public class PremierActivity extends AppCompatActivity {
 
@@ -22,6 +24,8 @@ public class PremierActivity extends AppCompatActivity {
     private ImageView classifica;
     private ImageView calendario;
     private Button returnNews;
+    private ImageView statistiche;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,7 @@ public class PremierActivity extends AppCompatActivity {
         marcatori = (ImageView) findViewById(R.id.imageViewClassificaMarcatoriPremier);
         classifica = (ImageView) findViewById(R.id.imageViewClassificaPremier);
         calendario = (ImageView) findViewById(R.id.imageViewCalendarioPremier);
+        statistiche = (ImageView) findViewById(R.id.imageViewlogoStatistiche);
 
         returnNews = (Button) findViewById(R.id.buttonReturnNews);
 
@@ -72,6 +77,14 @@ public class PremierActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        statistiche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), OptionStatistichePremier.class);
                 startActivity(intent);
             }
         });

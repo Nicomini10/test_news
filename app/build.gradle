@@ -36,4 +36,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation files('libs/wekaSTRIPPED.jar')
 }
