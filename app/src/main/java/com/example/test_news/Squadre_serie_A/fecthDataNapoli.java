@@ -25,7 +25,7 @@ public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?&met=Teams&teamId=4174&APIkey=1469a1f31030150b112a936791211da6237e21cedae1259f6ed903742242a184");
+            URL url = new URL("https://allsportsapi.com/api/football/?&met=Teams&teamId=4174&APIkey=e4b18df2ce6d7f265da71fd7156ae4ce02d1d509ecedf0ed294fd75bfc526728");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();

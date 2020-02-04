@@ -25,7 +25,7 @@ public class fecthDataCalendarioPremier extends AsyncTask<Void,Void,Void>  {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=148&APIkey=1469a1f31030150b112a936791211da6237e21cedae1259f6ed903742242a184&from=2019-08-09&to=2020-05-17");
+            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=148&APIkey=e4b18df2ce6d7f265da71fd7156ae4ce02d1d509ecedf0ed294fd75bfc526728&from=2019-08-09&to=2020-05-17");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -48,7 +48,8 @@ public class fecthDataCalendarioPremier extends AsyncTask<Void,Void,Void>  {
                 singleParsed =  ("-  ") + JO.get("league_round") + ("°") + "\n" +
                         ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
                         ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
-                        ("   ") + ("Risultato Finale: ") + JO.get("event_final_result") + "\n";
+                        ("   ") + ("Risultato Finale: ") + JO.get("event_final_result") + "\n" +
+                        ("___________________________________________") + "\n";
 
 
                 dataParsed = dataParsed + singleParsed + "\n";
