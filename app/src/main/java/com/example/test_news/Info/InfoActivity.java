@@ -26,7 +26,7 @@ public class InfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Uri uri = Uri.parse("https://www.unimol.it");
+                Uri uri = Uri.parse("http://dipbioter.unimol.it/didattica/corsi-di-laurea-triennali/informatica/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
 
