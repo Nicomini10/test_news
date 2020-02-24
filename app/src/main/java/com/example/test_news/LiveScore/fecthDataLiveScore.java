@@ -25,6 +25,7 @@ public class fecthDataLiveScore extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... voids) {
 
+
         try {
             URL url = new URL("https://allsportsapi.com/api/football/?met=Livescore&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658");
 
