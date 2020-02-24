@@ -26,7 +26,7 @@ public class fecthDataCalendarioLigue1 extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=176&APIkey=e4b18df2ce6d7f265da71fd7156ae4ce02d1d509ecedf0ed294fd75bfc526728&from=2019-08-09&to=2020-05-23");
+            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=176&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658&from=2019-08-09&to=2020-05-23");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
