@@ -16,7 +16,6 @@ public class CalendarioPremierLeague extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendario_premier_league);
 
-
         data = (TextView) findViewById(R.id.fectdata);
 
         fecthDataCalendarioPremier process = new fecthDataCalendarioPremier();

@@ -7,20 +7,18 @@ import android.widget.TextView;
 
 import com.example.test_news.R;
 
+public class ClassificaSerieA extends AppCompatActivity {
 
-public class Calendario_serie_a extends AppCompatActivity {
-
-    public static TextView data;
+   public static TextView data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendario_serie_a);
+        setContentView(R.layout.activity_classifica__serie_a);
 
         data = (TextView) findViewById(R.id.fectdata);
 
-        fecthDataCalendarioSerieA process = new fecthDataCalendarioSerieA();
+        fecthDataClassificaSerieA process = new fecthDataClassificaSerieA();
         process.execute();
-
     }
 }

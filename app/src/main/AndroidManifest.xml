@@ -67,8 +67,8 @@
         <activity android:name=".Giocatori_squadre_serie_a.Inter" />
         <activity android:name=".Video.VideoActivity" />
         <activity android:name=".LiveScore.LiveScoreActivity" />
-        <activity android:name=".SerieA.Calendario_serie_a" />
-        <activity android:name=".SerieA.Classifica_Serie_A" />
+        <activity android:name=".SerieA.CalendarioSerieA" />
+        <activity android:name=".SerieA.ClassificaSerieA" />
         <activity android:name=".Giocatori_squadre_serie_a.Juve" />
         <activity android:name=".SplashScreen.SplashScreenActivity">
             <intent-filter>

@@ -2,8 +2,6 @@ package com.example.test_news.Liga;
 
 import android.os.AsyncTask;
 
-import com.example.test_news.SerieA.Classifica_Serie_A;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

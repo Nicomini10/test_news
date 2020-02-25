@@ -3,7 +3,6 @@ package com.example.test_news.SerieA;
 
 import android.os.AsyncTask;
 
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -27,7 +26,7 @@ public class fecthDataCalendarioSerieA extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=262&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658&from=2019-08-25&to=2020-05-24");
+            URL url = new URL("https://allsportsapi.com/api/football/?met=Fixtures&leagueId=262&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658&from=2019-08-24&to=2020-05-24");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -48,10 +47,11 @@ public class fecthDataCalendarioSerieA extends AsyncTask<Void,Void,Void> {
                 JSONObject JO = JA.getJSONObject(i);
 
                 singleParsed =  ("-  ") + JO.get("league_round") + ("°") + "\n" +
-                                ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
-                                ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
-                                ("   ") + ("Risultato Finale: ") + JO.get("event_final_result") + "\n" +
-                                ("___________________________________________") + "\n";
+                        ("   ") + JO.get("event_home_team") + (" ") + ("Vs") + (" ") + JO.get("event_away_team") + "\n" +
+                        ("   ") + JO.get("event_date") + ("  ") + JO.get("event_time") + "\n" +
+                        ("   ") + ("Risultato Finale: ") + JO.get("event_final_result") + "\n" +
+                        ("___________________________________________") + "\n";
+
 
                 dataParsed = dataParsed + singleParsed + "\n";
 
@@ -73,6 +73,6 @@ public class fecthDataCalendarioSerieA extends AsyncTask<Void,Void,Void> {
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
 
-        Calendario_serie_a.data.setText(this.dataParsed);
+        CalendarioSerieA.data.setText(this.dataParsed);
     }
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".SerieA.Calendario_serie_a">
+    tools:context=".SerieA.CalendarioSerieA">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"

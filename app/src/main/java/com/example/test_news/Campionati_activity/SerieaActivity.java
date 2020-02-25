@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.test_news.SerieA.Calendario_serie_a;
-import com.example.test_news.SerieA.Classifica_Serie_A;
+import com.example.test_news.SerieA.CalendarioSerieA;
+import com.example.test_news.SerieA.ClassificaSerieA;
 import com.example.test_news.MainActivity;
 import com.example.test_news.SerieA.MarcatoriSerieA;
 import com.example.test_news.R;
@@ -50,7 +50,7 @@ public class SerieaActivity extends AppCompatActivity {
         classifica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Classifica_Serie_A.class);
+                Intent intent = new Intent(getApplicationContext(), ClassificaSerieA.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class SerieaActivity extends AppCompatActivity {
         calendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Calendario_serie_a.class);
+                Intent intent = new Intent(getApplicationContext(), CalendarioSerieA.class);
                 startActivity(intent);
             }
         });
