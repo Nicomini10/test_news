@@ -1,4 +1,4 @@
-package com.example.test_news.Giocatori_squadre_serie_A;
+package com.example.test_news.Giocatori_squadre_serie_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,8 @@ import android.widget.TextView;
 
 import com.example.test_news.R;
 
-public class Lazio extends AppCompatActivity {
+
+public class Juve extends AppCompatActivity {
 
     public static TextView data;
 
@@ -15,11 +16,14 @@ public class Lazio extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lazio); data = (TextView) findViewById(R.id.fectdata);
+        setContentView(R.layout.activity_juve);
 
-        fecthDataLazio process = new fecthDataLazio();
+        data = (TextView) findViewById(R.id.fectdata);
+
+        fecthDataJuve process = new fecthDataJuve();
         process.execute();
 
-
     }
+
+
 }

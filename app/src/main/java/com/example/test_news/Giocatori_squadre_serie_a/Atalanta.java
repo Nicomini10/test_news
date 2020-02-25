@@ -1,4 +1,4 @@
-package com.example.test_news.Giocatori_squadre_serie_A;
+package com.example.test_news.Giocatori_squadre_serie_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 

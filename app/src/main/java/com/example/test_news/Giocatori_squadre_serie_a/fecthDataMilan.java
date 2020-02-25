@@ -1,4 +1,4 @@
-package com.example.test_news.Giocatori_squadre_serie_A;
+package com.example.test_news.Giocatori_squadre_serie_a;
 
 import android.os.AsyncTask;
 
@@ -14,7 +14,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
+public class fecthDataMilan extends AsyncTask<Void,Void,Void> {
 
     String data = "";
     String dataParsed = "";
@@ -25,7 +25,7 @@ public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?&met=Teams&teamId=4174&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658");
+            URL url = new URL("https://allsportsapi.com/api/football/?&met=Teams&teamId=4186&APIkey=8c72e9afa4bca02da686da238b36601fa9c4bdd80b039a375deed2667ee87658");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -52,8 +52,8 @@ public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
                             JSONObject JO2 = JA2.getJSONObject(j);
 
                             singleParsed = ("-  ") + JO2.get("player_name") + "\n" +
-                                    ("   ") + ("Ruolo:  ") + JO2.get("player_type") + "\n" +
-                                    ("   ") + ("Età:  ") + JO2.get("player_age") + "\n" +
+                                           ("   ") + ("Ruolo:  ") + JO2.get("player_type") + "\n" +
+                                           ("   ") + ("Età:  ") + JO2.get("player_age") + "\n" +
                                     ("   ") + ("Numero di maglia:  ") + JO2.get("player_number") + "\n";
 
 
@@ -67,7 +67,7 @@ public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
                             JSONObject JO3 = JA3.getJSONObject(k);
 
                             singleParsed = ("-  ") + "Allenatore:  " + JO3.get("coach_name") + "\n" +
-                                    ("   ") + "Età:  " + JO3.get("coach_age") + "\n";
+                                           ("   ") + "Età:  " + JO3.get("coach_age") + "\n";
 
                             dataParsed = dataParsed + singleParsed + "\n";
 
@@ -94,6 +94,6 @@ public class fecthDataNapoli extends AsyncTask<Void,Void,Void> {
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);
 
-        Napoli.data.setText(this.dataParsed);
+        Milan.data.setText(this.dataParsed);
     }
 }

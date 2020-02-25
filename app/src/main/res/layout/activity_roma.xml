@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Giocatori_squadre_serie_A.Roma">
+    tools:context=".Giocatori_squadre_serie_a.Roma">
 
 
 
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="110dp"
-            android:hint="Giocatori Roma"
+            android:hint="Giocatori Roma:"
             android:padding="5dp"
             android:textColor="#FFFFFF"
             android:textSize="22sp"

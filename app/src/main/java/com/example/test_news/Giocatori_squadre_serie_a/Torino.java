@@ -1,4 +1,4 @@
-package com.example.test_news.Giocatori_squadre_serie_A;
+package com.example.test_news.Giocatori_squadre_serie_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,18 +7,19 @@ import android.widget.TextView;
 
 import com.example.test_news.R;
 
-public class Inter extends AppCompatActivity {
+public class Torino extends AppCompatActivity {
 
     public static TextView data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inter);
+        setContentView(R.layout.activity_torino);
+
 
         data = (TextView) findViewById(R.id.fectdata);
 
-        fecthDataInter process = new fecthDataInter();
+        fecthDataTorino process = new fecthDataTorino();
         process.execute();
     }
 }

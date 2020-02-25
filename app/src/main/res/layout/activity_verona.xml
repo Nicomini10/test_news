@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Giocatori_squadre_serie_a.Juve">
+    tools:context=".Giocatori_squadre_serie_a.Verona">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:paddingTop="10dp"
-            app:srcCompat="@mipmap/image_juve_foreground" />
+            app:srcCompat="@mipmap/image_verona_foreground" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="110dp"
-            android:hint="Giocatori Juventus:"
+            android:hint="Giocatori Verona:"
             android:padding="5dp"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
