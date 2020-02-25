@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.test_news.R;
-import com.example.test_news.Statistiche_Liga.StatistichePossesoLiga;
-import com.example.test_news.Statistiche_Liga.StatisticheQuoteLiga;
 
 public class OptionStatisticheBundesLiga extends AppCompatActivity {
 

@@ -27,7 +27,7 @@ public class OptionStatisticheLiga extends AppCompatActivity {
         percentualePossesopalla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), StatistichePossesoLiga.class);
+                Intent intent = new Intent(getApplicationContext(), StatistichePossesoPallaLiga.class);
                 startActivity(intent);
             }
         });

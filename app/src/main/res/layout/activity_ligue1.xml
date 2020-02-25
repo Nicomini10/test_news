@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Campionati.Ligue1Activity">
+    tools:context=".Campionati_activity.Ligue1Activity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"

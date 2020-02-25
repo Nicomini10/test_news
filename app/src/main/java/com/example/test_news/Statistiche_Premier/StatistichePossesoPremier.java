@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.test_news.R;
-import com.example.test_news.Statistiche_SerieA.fecthDataStatisticheSerieA;
 
 public class StatistichePossesoPremier extends AppCompatActivity {
 

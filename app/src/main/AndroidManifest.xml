@@ -14,35 +14,31 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Statistiche_Ligue1.OptionStatisticheLigue1"></activity>
         <activity android:name=".Statistiche_Ligue1.StatisticheQuoteLigue1" />
-        <activity android:name=".Statistiche_Ligue1.StatistichePossesoLigue1" />
+        <activity android:name=".Statistiche_Ligue1.StatistichePossesoPallaLigue1" />
         <activity android:name=".Statistiche_BundesLiga.OptionStatisticheBundesLiga" />
         <activity android:name=".Statistiche_BundesLiga.StatisticheQuoteBundesLiga" />
         <activity android:name=".Statistiche_BundesLiga.StatistichePossesoBundesLiga" />
         <activity android:name=".Statistiche_Liga.OptionStatisticheLiga" />
         <activity android:name=".Statistiche_Liga.StatisticheQuoteLiga" />
-        <activity android:name=".Statistiche_Liga.StatistichePossesoLiga" />
+        <activity android:name=".Statistiche_Liga.StatistichePossesoPallaLiga" />
         <activity android:name=".Statistiche_Premier.StatisticheQuotePremier" />
         <activity android:name=".Statistiche_Premier.OptionStatistichePremier" />
         <activity android:name=".Statistiche_Premier.StatistichePossesoPremier" />
-        <activity
-            android:name=".testCalendario"
-            android:label="@string/title_activity_test_calendario"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Statistiche_SerieA.StatisticheQuoteSerieA" />
         <activity android:name=".Statistiche_SerieA.StatisticheMediaGoalSerieA" />
         <activity android:name=".Statistiche_SerieA.OptionStatisticheSerieaActivity" />
         <activity android:name=".Statistiche_SerieA.StatistichePossesoPallaSerieA" />
         <activity android:name=".Statistiche_SerieA.StatisticheActivity" />
-        <activity android:name=".Squadre_serie_A.Atalanta" />
-        <activity android:name=".Squadre_serie_A.Lazio" />
-        <activity android:name=".Squadre_serie_A.Torino" />
+        <activity android:name=".Giocatori_squadre_serie_A.Atalanta" />
+        <activity android:name=".Giocatori_squadre_serie_A.Lazio" />
+        <activity android:name=".Giocatori_squadre_serie_A.Torino" />
         <activity android:name=".Ligue1.CalendarioLigue1" />
         <activity android:name=".Ligue1.ClassificaLigue1" />
         <activity android:name=".Ligue1.MarcatoriLigue1" />
         <activity android:name=".BundesLiga.CalendarioBundesLiga" />
         <activity android:name=".BundesLiga.ClassificaBundesLiga" />
         <activity android:name=".BundesLiga.MarcatoriBundesLiga" />
-        <activity android:name=".Squadre_serie_A.Napoli" />
+        <activity android:name=".Giocatori_squadre_serie_A.Napoli" />
         <activity android:name=".Ligue1.SquadreLigue1" />
         <activity android:name=".BundesLiga.SquadreBundesliga" />
         <activity android:name=".Liga.CalendarioLiga" />
@@ -53,14 +49,14 @@
         <activity android:name=".PremierLeague.MarcatoriPremierLeague" />
         <activity android:name=".Liga.SquadreLiga" />
         <activity android:name=".PremierLeague.SquadrePremierLeague" />
-        <activity android:name=".Squadre_serie_A.Roma" />
-        <activity android:name=".Squadre_serie_A.Milan" />
-        <activity android:name=".Squadre_serie_A.Inter" />
+        <activity android:name=".Giocatori_squadre_serie_A.Roma" />
+        <activity android:name=".Giocatori_squadre_serie_A.Milan" />
+        <activity android:name=".Giocatori_squadre_serie_A.Inter" />
         <activity android:name=".Video.VideoActivity" />
         <activity android:name=".LiveScore.LiveScoreActivity" />
         <activity android:name=".SerieA.Calendario_serie_a" />
         <activity android:name=".SerieA.Classifica_Serie_A" />
-        <activity android:name=".Squadre_serie_A.Juve" />
+        <activity android:name=".Giocatori_squadre_serie_A.Juve" />
         <activity android:name=".SplashScreen.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -68,12 +64,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Campionati.SerieaActivity" />
+        <activity android:name=".Campionati_activity.SerieaActivity" />
         <activity android:name=".Info.InfoActivity" />
-        <activity android:name=".Campionati.Ligue1Activity" />
-        <activity android:name=".Campionati.BundeligaActivity" />
-        <activity android:name=".Campionati.LigaActivity" />
-        <activity android:name=".Campionati.PremierActivity" />
+        <activity android:name=".Campionati_activity.Ligue1Activity" />
+        <activity android:name=".Campionati_activity.BundeligaActivity" />
+        <activity android:name=".Campionati_activity.LigaActivity" />
+        <activity android:name=".Campionati_activity.PremierActivity" />
         <activity android:name=".SerieA.SquadreSerieA" />
         <activity android:name=".SerieA.MarcatoriSerieA" />
         <activity

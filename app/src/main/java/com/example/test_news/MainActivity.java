@@ -18,11 +18,11 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.test_news.Campionati.BundeligaActivity;
-import com.example.test_news.Campionati.LigaActivity;
-import com.example.test_news.Campionati.Ligue1Activity;
-import com.example.test_news.Campionati.PremierActivity;
-import com.example.test_news.Campionati.SerieaActivity;
+import com.example.test_news.Campionati_activity.BundeligaActivity;
+import com.example.test_news.Campionati_activity.LigaActivity;
+import com.example.test_news.Campionati_activity.Ligue1Activity;
+import com.example.test_news.Campionati_activity.PremierActivity;
+import com.example.test_news.Campionati_activity.SerieaActivity;
 import com.example.test_news.Info.InfoActivity;
 import com.example.test_news.LiveScore.LiveScoreActivity;
 import com.example.test_news.Statistiche_SerieA.StatisticheActivity;

@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.test_news.R;
-import com.example.test_news.Squadre_serie_A.Atalanta;
-import com.example.test_news.Squadre_serie_A.Inter;
-import com.example.test_news.Squadre_serie_A.Juve;
-import com.example.test_news.Squadre_serie_A.Lazio;
-import com.example.test_news.Squadre_serie_A.Milan;
-import com.example.test_news.Squadre_serie_A.Napoli;
-import com.example.test_news.Squadre_serie_A.Roma;
-import com.example.test_news.Squadre_serie_A.Torino;
+import com.example.test_news.Giocatori_squadre_serie_A.Atalanta;
+import com.example.test_news.Giocatori_squadre_serie_A.Inter;
+import com.example.test_news.Giocatori_squadre_serie_A.Juve;
+import com.example.test_news.Giocatori_squadre_serie_A.Lazio;
+import com.example.test_news.Giocatori_squadre_serie_A.Milan;
+import com.example.test_news.Giocatori_squadre_serie_A.Napoli;
+import com.example.test_news.Giocatori_squadre_serie_A.Roma;
+import com.example.test_news.Giocatori_squadre_serie_A.Torino;
 
 
 public class SquadreSerieA extends AppCompatActivity {

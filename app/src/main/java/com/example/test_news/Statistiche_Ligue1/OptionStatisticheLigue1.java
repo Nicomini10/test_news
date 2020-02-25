@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.test_news.R;
-import com.example.test_news.Statistiche_Liga.StatistichePossesoLiga;
-import com.example.test_news.Statistiche_Liga.StatisticheQuoteLiga;
 
 public class OptionStatisticheLigue1 extends AppCompatActivity {
 
@@ -29,7 +27,7 @@ public class OptionStatisticheLigue1 extends AppCompatActivity {
         percentualePossesopalla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), StatistichePossesoLigue1.class);
+                Intent intent = new Intent(getApplicationContext(), StatistichePossesoPallaLigue1.class);
                 startActivity(intent);
             }
         });

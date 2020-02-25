@@ -18,7 +18,7 @@ public class StatistichePossesoPallaSerieA extends AppCompatActivity {
 
         data = (TextView) findViewById(R.id.fectdata);
 
-        fecthDataStatisticheSerieA process = new fecthDataStatisticheSerieA();
+        fecthDataStatistichePossesoPallaSerieA process = new fecthDataStatistichePossesoPallaSerieA();
         process.execute();
     }
 }
