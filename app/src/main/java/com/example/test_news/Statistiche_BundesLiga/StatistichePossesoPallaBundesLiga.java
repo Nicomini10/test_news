@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.example.test_news.R;
 
-public class StatistichePossesoBundesLiga extends AppCompatActivity {
+public class StatistichePossesoPallaBundesLiga extends AppCompatActivity {
 
     public static TextView data;
 

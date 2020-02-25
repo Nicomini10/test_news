@@ -26,7 +26,7 @@ public class OptionStatisticheBundesLiga extends AppCompatActivity {
         percentualePossesopalla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), StatistichePossesoBundesLiga.class);
+                Intent intent = new Intent(getApplicationContext(), StatistichePossesoPallaBundesLiga.class);
                 startActivity(intent);
             }
         });

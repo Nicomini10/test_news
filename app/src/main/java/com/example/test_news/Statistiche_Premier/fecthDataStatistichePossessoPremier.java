@@ -48,26 +48,26 @@ public class fecthDataStatistichePossessoPremier extends AsyncTask<Void,Void,Voi
 
                 singleParsed = ("- ") + JO.get("lega") + "\n" +
                         ("  ") + JO.get("pos_palla") + "\n" + "\n" +
-                        ("  ") + JO.get("s_1") + (":  ") + JO.get("pp_1") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_2") + (":  ") + JO.get("pp_2") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_3") + (":  ") + JO.get("pp_3") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_4") + (":  ") + JO.get("pp_4") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_5") + (":  ") + JO.get("pp_5") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_6") + (":  ") + JO.get("pp_6") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_7") + (":  ") + JO.get("pp_7") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_8") + (":  ") + JO.get("pp_8") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_9") + (":  ") + JO.get("pp_9") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_10") + (":  ") + JO.get("pp_10") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_11") + (":  ") + JO.get("pp_11") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_12") + (":  ") + JO.get("pp_12") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_13") + (":  ") + JO.get("pp_13") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_14") + (":  ") + JO.get("pp_14") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_15") + (":  ") + JO.get("pp_15") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_16") + (":  ") + JO.get("pp_16") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_17") + (":  ") + JO.get("pp_17") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_18") + (":  ") + JO.get("pp_18") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_19") + (":  ") + JO.get("pp_19") + (" %") + "\n" + "\n" +
-                        ("  ") + JO.get("s_20") + (":  ") + JO.get("pp_20") + (" %") + "\n";
+                        ("  ") + JO.get("s_1") + (":  ") + JO.get("pp_1") + "\n" + "\n" +
+                        ("  ") + JO.get("s_2") + (":  ") + JO.get("pp_2") + "\n" + "\n" +
+                        ("  ") + JO.get("s_3") + (":  ") + JO.get("pp_3") + "\n" + "\n" +
+                        ("  ") + JO.get("s_4") + (":  ") + JO.get("pp_4") + "\n" + "\n" +
+                        ("  ") + JO.get("s_5") + (":  ") + JO.get("pp_5") + "\n" + "\n" +
+                        ("  ") + JO.get("s_6") + (":  ") + JO.get("pp_6") + "\n" + "\n" +
+                        ("  ") + JO.get("s_7") + (":  ") + JO.get("pp_7") + "\n" + "\n" +
+                        ("  ") + JO.get("s_8") + (":  ") + JO.get("pp_8") + "\n" + "\n" +
+                        ("  ") + JO.get("s_9") + (":  ") + JO.get("pp_9") + "\n" + "\n" +
+                        ("  ") + JO.get("s_10") + (":  ") + JO.get("pp_10") + "\n" + "\n" +
+                        ("  ") + JO.get("s_11") + (":  ") + JO.get("pp_11") + "\n" + "\n" +
+                        ("  ") + JO.get("s_12") + (":  ") + JO.get("pp_12") + "\n" + "\n" +
+                        ("  ") + JO.get("s_13") + (":  ") + JO.get("pp_13") + "\n" + "\n" +
+                        ("  ") + JO.get("s_14") + (":  ") + JO.get("pp_14") + "\n" + "\n" +
+                        ("  ") + JO.get("s_15") + (":  ") + JO.get("pp_15") + "\n" + "\n" +
+                        ("  ") + JO.get("s_16") + (":  ") + JO.get("pp_16") + "\n" + "\n" +
+                        ("  ") + JO.get("s_17") + (":  ") + JO.get("pp_17") + "\n" + "\n" +
+                        ("  ") + JO.get("s_18") + (":  ") + JO.get("pp_18") + "\n" + "\n" +
+                        ("  ") + JO.get("s_19") + (":  ") + JO.get("pp_19") + "\n" + "\n" +
+                        ("  ") + JO.get("s_20") + (":  ") + JO.get("pp_20") + "\n";
 
 
                 dataParsed = dataParsed + singleParsed + "\n";

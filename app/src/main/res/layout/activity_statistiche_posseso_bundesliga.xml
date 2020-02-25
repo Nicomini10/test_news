@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009688"
-    tools:context=".Statistiche_BundesLiga.StatistichePossesoBundesLiga">
+    tools:context=".Statistiche_BundesLiga.StatistichePossesoPallaBundesLiga">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_marginTop="110dp"
             android:textColor="#FFFFFF"
             android:hint="Media Posseso Palla Squadre Bundesliga:"

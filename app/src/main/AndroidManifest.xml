@@ -17,7 +17,7 @@
         <activity android:name=".Statistiche_Ligue1.StatistichePossesoPallaLigue1" />
         <activity android:name=".Statistiche_BundesLiga.OptionStatisticheBundesLiga" />
         <activity android:name=".Statistiche_BundesLiga.StatisticheQuoteBundesLiga" />
-        <activity android:name=".Statistiche_BundesLiga.StatistichePossesoBundesLiga" />
+        <activity android:name=".Statistiche_BundesLiga.StatistichePossesoPallaBundesLiga" />
         <activity android:name=".Statistiche_Liga.OptionStatisticheLiga" />
         <activity android:name=".Statistiche_Liga.StatisticheQuoteLiga" />
         <activity android:name=".Statistiche_Liga.StatistichePossesoPallaLiga" />

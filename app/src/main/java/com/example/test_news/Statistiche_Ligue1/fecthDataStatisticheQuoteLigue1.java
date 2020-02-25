@@ -26,7 +26,7 @@ public class fecthDataStatisticheQuoteLigue1 extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://api.myjson.com/bins/nb884");
+            URL url = new URL("https://api.myjson.com/bins/1b1jes");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();

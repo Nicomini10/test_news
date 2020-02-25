@@ -27,7 +27,7 @@ public class fecthDataStatisticheQuoteBundesliga extends AsyncTask<Void,Void,Voi
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://api.myjson.com/bins/nb884");
+            URL url = new URL("https://api.myjson.com/bins/k6ob8");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
