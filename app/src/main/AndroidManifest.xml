@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Giocatori_squadre_premier.Arsenal"></activity>
+        <activity android:name=".Giocatori_squadre_liga.Barcelona"></activity>
+        <activity android:name=".Giocatori_squadre_premier.Arsenal" />
         <activity android:name=".Giocatori_squadre_serie_a.Verona" />
         <activity android:name=".Giocatori_squadre_serie_a.Udinese" />
         <activity android:name=".Giocatori_squadre_serie_a.Spal" />
