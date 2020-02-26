@@ -51,7 +51,7 @@ public class fecthDataRoma extends AsyncTask<Void,Void,Void> {
                         for (int j = 0; j < JA2.length(); j++) {
                             JSONObject JO2 = JA2.getJSONObject(j);
 
-                            singleParsed = ("-  ") + JO2.get("player_name") + "\n" +
+                            singleParsed = ("- ") + JO2.get("player_name") + "\n" +
                                            ("   ") + ("Ruolo:  ") + JO2.get("player_type") + "\n" +
                                            ("   ") + ("Età:  ") + JO2.get("player_age") + "\n" +
                                            ("   ") + ("Numero di maglia:  ") + JO2.get("player_number") + "\n";
