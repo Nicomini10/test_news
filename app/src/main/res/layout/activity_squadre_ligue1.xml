@@ -29,18 +29,18 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageViewAmiens"
+                android:id="@+id/imageViewParis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@mipmap/image_amiens_foreground" />
+                app:srcCompat="@mipmap/image_paris_foreground" />
 
             <TextView
-                android:id="@+id/textViewAmiens"
+                android:id="@+id/textViewParis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
-                android:text="AMIENS"
+                android:text="PARIS SG"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -280,19 +280,19 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageViewParis"
+                android:id="@+id/imageViewAmiens"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@mipmap/image_paris_foreground" />
+                app:srcCompat="@mipmap/image_amiens_foreground" />
 
             <TextView
-                android:id="@+id/textViewParis"
+                android:id="@+id/textViewAmiens"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="130dp"
                 android:layout_marginTop="-75dp"
-                android:text="PARIS SG"
+                android:text="AMIENS"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
                 android:textStyle="bold" />
