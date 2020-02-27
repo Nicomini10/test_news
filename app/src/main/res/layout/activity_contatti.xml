@@ -38,6 +38,67 @@
             app:srcCompat="@mipmap/image_info_foreground" />
 
 
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Email"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageEmail"
+            android:layout_width="158dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:src="@mipmap/ic_launcher_email_foreground" />
+
+        <TextView
+            android:id="@+id/textViewFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Facebook"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageFacebook"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher_facebook_foreground" />
+
+        <TextView
+            android:id="@+id/textViewInstagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Instagram"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageInstagram"
+            android:layout_width="158dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher_instagram_foreground" />
 
     </LinearLayout>
 </RelativeLayout>
