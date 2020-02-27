@@ -23,6 +23,7 @@ import com.example.test_news.Campionati_activity.LigaActivity;
 import com.example.test_news.Campionati_activity.Ligue1Activity;
 import com.example.test_news.Campionati_activity.PremierActivity;
 import com.example.test_news.Campionati_activity.SerieaActivity;
+import com.example.test_news.Contatti.ContattiActivity;
 import com.example.test_news.Info.InfoActivity;
 import com.example.test_news.LiveScore.LiveScoreActivity;
 import com.example.test_news.Statistiche_SerieA.StatisticheActivity;
@@ -193,14 +194,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             Intent intent = new Intent(getApplicationContext(), LiveScoreActivity.class);
             startActivity(intent);
+
         } else if (id == R.id.nav_video_match) {
 
             Intent intent = new Intent(getApplicationContext(), VideoActivity.class);
             startActivity(intent);
+
         } else if (id == R.id.nav_statistiche) {
 
             Intent intent = new Intent(getApplicationContext(), StatisticheActivity.class);
             startActivity(intent);
+
+        } else if (id == R.id.nav_contatti) {
+
+            Intent intent = new Intent(getApplicationContext(), ContattiActivity.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_info) {
 
             Intent intent = new Intent(getApplicationContext(), InfoActivity.class);
