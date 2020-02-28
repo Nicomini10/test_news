@@ -43,7 +43,10 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginVertical="20dp"
-            android:text="Invia Email" />
+            android:text="Invia Email"
+            android:textColor="@color/cardview_dark_background"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold|italic"/>
     </LinearLayout>
 
 </RelativeLayout>

@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.test_news.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ContattiActivity extends AppCompatActivity {
 
