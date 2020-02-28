@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatti.EmailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="24dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/image_app_logo_definitivo_foreground"/>
+
+        <EditText
+            android:id="@+id/editTextOggettoEmail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:hint="Oggetto Email"
+            android:inputType="textEmailSubject" />
+
+        <EditText
+            android:id="@+id/editTestoEmail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:hint="Testo Email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/buttonInviaEmail"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="20dp"
+            android:text="Invia Email" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -9,11 +9,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.test_news.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ContattiActivity extends AppCompatActivity {
 
     private ImageView facebook;
     private ImageView instagram;
+    private ImageView email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class ContattiActivity extends AppCompatActivity {
 
         facebook = (ImageView) findViewById(R.id.imageFacebook);
         instagram = (ImageView) findViewById(R.id.imageInstagram);
+        email = (ImageView) findViewById(R.id.imageEmail);
 
 
         facebook.setOnClickListener(new View.OnClickListener() {
@@ -48,6 +51,15 @@ public class ContattiActivity extends AppCompatActivity {
         });
 
 
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), EmailActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
 
     }
