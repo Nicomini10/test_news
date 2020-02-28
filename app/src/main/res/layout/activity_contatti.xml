@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:paddingTop="10dp"
-            app:srcCompat="@mipmap/image_info_foreground" />
+            app:srcCompat="@mipmap/ic_launcher_contatti_foreground" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -35,7 +35,7 @@
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/image_info_foreground" />
+            app:srcCompat="@mipmap/ic_launcher_contatti_foreground" />
 
 
         <TextView
