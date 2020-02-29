@@ -26,15 +26,29 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
+    <Button
+        android:id="@+id/ScaricaCalendario"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="115dp"
+        android:text="Scarica calendario completo in formato pdf"
+        android:textColor="@color/cardview_dark_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold|italic">
+
+    </Button>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <TextView
             android:id="@+id/fectdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="190dp"
             android:gravity="center"
             android:hint="Calendario Premier League"
             android:padding="5dp"

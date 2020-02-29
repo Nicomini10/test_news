@@ -25,6 +25,20 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="110dp"
+        android:text="Partite in corso:"
+        android:textColor="@color/cardview_dark_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold|italic"
+        android:textSize="27sp">
+
+    </TextView>
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -33,12 +47,13 @@
             android:id="@+id/fectdata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:textSize="22sp"
-            android:layout_marginTop="110dp"
-            android:textColor="#FFFFFF"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
             android:hint="Nessun Evento in Live"
-            android:textStyle="bold"/>
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
     </ScrollView>
 </RelativeLayout>

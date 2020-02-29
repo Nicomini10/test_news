@@ -36,8 +36,8 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
             android:gravity="center"
-            android:text="Scarica calendario in formato pdf"
-            android:textSize="24sp" />
+            android:text="Scarica il calendario in formato PDF"
+            android:textSize="22sp" />
 
         <Button
             android:id="@+id/btdownload"
@@ -45,7 +45,10 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Download" />
+            android:text="Download"
+            android:textColor="@color/cardview_dark_background"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold|italic"/>
 
 
     </LinearLayout>
