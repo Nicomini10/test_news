@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="117dp"
         android:layout_marginTop="110dp"
-        android:text="Partite in corso:"
+        android:hint="Partite in corso:"
         android:textColor="@color/cardview_dark_background"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold|italic"
