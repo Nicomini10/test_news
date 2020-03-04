@@ -19,12 +19,15 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScaricaCalendarioSerieA.ScaricaCalendarioSerieAActivity"></activity>
+        <activity android:name=".ScaricaCalendarioPremier.ScaricaCalendarioPremierActivity" />
+        <activity android:name=".ScaricaCalendarioSerieA.ScaricaCalendarioSerieAActivity" />
 
         <service
             android:name=".ScaricaCalendarioSerieA.DownloadServiceCalendarioSerieA"
             android:exported="false" />
-
+        <service
+            android:name=".ScaricaCalendarioPremier.DownloadServiceCalendarioPremier"
+            android:exported="false" />
 
         <activity android:name=".Contatti.EmailActivity" />
         <activity android:name=".Contatti.ContattiActivity" />
