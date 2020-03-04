@@ -105,7 +105,7 @@
         <activity android:name=".SerieA.SquadreSerieA" />
         <activity android:name=".SerieA.MarcatoriSerieA" />
         <activity
-            android:name=".DetailsActivity"
+            android:name=".News.DetailsActivity"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

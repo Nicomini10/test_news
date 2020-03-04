@@ -1,4 +1,4 @@
-package com.example.test_news;
+package com.example.test_news.News;
 
 import android.content.Intent;
 import android.os.Bundle;
