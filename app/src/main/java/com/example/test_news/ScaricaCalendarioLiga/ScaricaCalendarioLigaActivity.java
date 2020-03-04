@@ -1,4 +1,4 @@
-package com.example.test_news.ScaricaCalendarioPremier;
+package com.example.test_news.ScaricaCalendarioLiga;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -29,11 +29,11 @@ import com.example.test_news.R;
 
 import java.io.File;
 
-public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
+public class ScaricaCalendarioLigaActivity extends AppCompatActivity {
 
     private Context context;
     private TextView tv;
-    private String pdfUrl = "http://fratelliminichillows.altervista.org/calendarioPremier.pdf";
+    private String pdfUrl = "http://fratelliminichillows.altervista.org/calendarioLiga.pdf";
 
     private NotificationCompat.Builder notificationBuilder;
     private static final int MY_NOTIFICATION_ID = 123;
@@ -41,7 +41,7 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scarica_calendario_premier);
+        setContentView(R.layout.activity_scarica_calendario_liga);
 
         requestAppPermissions();
 
@@ -55,9 +55,9 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent newIntent = new Intent(context, DownloadServiceCalendarioPremier.class);
-                newIntent.setAction(DownloadServiceCalendarioPremier.ACTION_DOWNLOAD);
-                newIntent.putExtra(DownloadServiceCalendarioPremier.EXTRA_URL, pdfUrl);
+                Intent newIntent = new Intent(context, DownloadServiceCalendarioLiga.class);
+                newIntent.setAction(DownloadServiceCalendarioLiga.ACTION_DOWNLOAD);
+                newIntent.putExtra(DownloadServiceCalendarioLiga.EXTRA_URL, pdfUrl);
                 // Start Download Service
                 tv.setText("Downloading...");
                 context.startService(newIntent);
@@ -90,7 +90,7 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
                 .setContentText("Premi su questa notifica per visualizzarlo!");
 
 
-        File file = new File(Environment.getExternalStorageDirectory() + "/calendarioPremier.pdf");
+        File file = new File(Environment.getExternalStorageDirectory() + "/calendarioLiga.pdf");
 
         Intent resultIntent = null;
 
@@ -102,7 +102,7 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
         }
 
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
-        stackBuilder.addParentStack(ScaricaCalendarioPremierActivity.class);
+        stackBuilder.addParentStack(ScaricaCalendarioLigaActivity.class);
         stackBuilder.addNextIntent(resultIntent);
 
         PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -118,7 +118,7 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
             Bundle b = intent.getExtras();
             if (b != null) {
 
-                tv.setText(b.getString(DownloadServiceCalendarioPremier.EXTRA_MESSAGE));
+                tv.setText(b.getString(DownloadServiceCalendarioLiga.EXTRA_MESSAGE));
                 notifyDownloadComplete();
 
             }
@@ -128,7 +128,7 @@ public class ScaricaCalendarioPremierActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         // Register receiver to get message from DownloadService
-        registerReceiver(DownloadReceiver, new IntentFilter(DownloadServiceCalendarioPremier.ACTION_DOWNLOAD));
+        registerReceiver(DownloadReceiver, new IntentFilter(DownloadServiceCalendarioLiga.ACTION_DOWNLOAD));
 
 
     }

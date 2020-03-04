@@ -19,6 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ScaricaCalendarioLiga.ScaricaCalendarioLigaActivity"/>
         <activity android:name=".ScaricaCalendarioPremier.ScaricaCalendarioPremierActivity" />
         <activity android:name=".ScaricaCalendarioSerieA.ScaricaCalendarioSerieAActivity" />
 
@@ -27,6 +28,9 @@
             android:exported="false" />
         <service
             android:name=".ScaricaCalendarioPremier.DownloadServiceCalendarioPremier"
+            android:exported="false" />
+        <service
+            android:name=".ScaricaCalendarioLiga.DownloadServiceCalendarioLiga"
             android:exported="false" />
 
         <activity android:name=".Contatti.EmailActivity" />
