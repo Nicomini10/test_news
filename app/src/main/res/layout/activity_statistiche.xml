@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="550dp"
         android:gravity="center"
-        android:text="*Clicca sul simbolo di un campionato per visualizzare le statistiche"
+        android:text="*Clicca sul simbolo di un campionato per visualizzarne le statistiche"
         android:textColor="#FFFFFF"
         android:textSize="13sp"
         android:textStyle="bold" />

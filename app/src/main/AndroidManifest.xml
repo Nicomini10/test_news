@@ -19,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_logo_app2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScaricaCalendarioBundesLiga.ScaricaCalendarioBundesLigaActivity"></activity>
+        <activity android:name=".ScaricaCalendarioLigue1.ScaricaCalendarioLigue1Activity"/>
+        <activity android:name=".ScaricaCalendarioBundesLiga.ScaricaCalendarioBundesLigaActivity" />
         <activity android:name=".ScaricaCalendarioLiga.ScaricaCalendarioLigaActivity" />
         <activity android:name=".ScaricaCalendarioPremier.ScaricaCalendarioPremierActivity" />
         <activity android:name=".ScaricaCalendarioSerieA.ScaricaCalendarioSerieAActivity" />
@@ -35,6 +36,9 @@
             android:exported="false" />
         <service
             android:name=".ScaricaCalendarioBundesLiga.DownloadServiceCalendarioBundesLiga"
+            android:exported="false" />
+        <service
+            android:name=".ScaricaCalendarioLigue1.DownloadServiceCalendarioLigue1"
             android:exported="false" />
 
         <activity android:name=".Contatti.EmailActivity" />
