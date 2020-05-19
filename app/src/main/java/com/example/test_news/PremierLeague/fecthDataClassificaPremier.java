@@ -26,7 +26,7 @@ public class fecthDataClassificaPremier extends AsyncTask<Void,Void,Void> {
     protected Void doInBackground(Void... voids) {
 
         try {
-            URL url = new URL("https://allsportsapi.com/api/football/?&met=Standings&leagueId=148&APIkey=5f556ecaf63537f75bf161b25f79ab968fc7a371d6b10c0ef9c67b53725c9106");
+            URL url = new URL("https://allsportsapi.com/api/football/?&met=Standings&leagueId=148&APIkey=d50e947c89b5f6faf60f34de2638da1d7fa9b92762c9c767ba5d464757a3d879");
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
